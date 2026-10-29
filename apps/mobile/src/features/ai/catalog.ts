@@ -63,14 +63,14 @@ export const providerOptions: {
 		label: "Anthropic Claude",
 		keywords: ["anthropic", "claude", "ai"],
 		defaultBaseURL: AI_PROVIDER_DEFAULT_BASE_URLS.anthropic,
-		defaultModel: "claude-3-5-sonnet-latest",
+		defaultModel: "claude-sonnet-5-5",
 	},
 	{
 		value: "gemini",
 		label: "Google Gemini",
 		keywords: ["gemini", "google"],
 		defaultBaseURL: AI_PROVIDER_DEFAULT_BASE_URLS.gemini,
-		defaultModel: "gemini-2.0-flash",
+		defaultModel: "gemini-3.8-flash",
 	},
 	{
 		value: "vercel-ai-gateway",
